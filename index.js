@@ -1,4 +1,4 @@
-function unpdateObjectWithKeyAndValue(o, k, v) {
-  o[k] = v;
-  return o;
+function unpdateObjectWithKeyAndValue(obj, key, value) {
+  obj[key] = value;
+  return obj;
 }
